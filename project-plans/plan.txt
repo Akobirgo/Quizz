@@ -1,0 +1,56 @@
+1. Loyihaning Talablari va Funktsiyalari:
+    Foydalanuvchi Talablari:
+        Foydalanuvchilar ro'yxatdan o'tishlari va tizimga kirishlari kerak.
+        Foydalanuvchilar testlarni o'tkazishlari, natijalarni ko'rishlari va ulashishlari mumkin.
+    Administrator Funktsiyalari:
+        Admin quizz yaratishi, tahrirlashi va o'chirishi mumkin.
+        Natijalarni ko'rib chiqishi va foydalanuvchilarni boshqarishi mumkin.
+2. Frontend Ishlab Chiqish:
+    Texnologiyalar: 
+        HTML, CSS, JavaScript, React yoki Vue.js.
+    Asosiy Modullar:
+        Ro'yxatdan o'tish va tizimga kirish formasi.
+        Savol-javob sahifasi (Quizz sahifasi).
+        Natijalarni ko'rish sahifasi.
+        Admin paneli (faqat administratorlar uchun).
+    Dizayn: 
+        Mobil va veb ilovalar uchun mos dizayn (Responsive Design).
+3. Backend Ishlab Chiqish:
+    Texnologiyalar: 
+        Node.js, Express.js, PostgreSQL yoki MongoDB.
+    API Yo'nalishlari (Routes):
+        Foydalanuvchilar uchun: Ro'yxatdan o'tish, tizimga kirish, testlar ro'yxati, natijalar ro'yxati.
+    Adminlar uchun: 
+        Test yaratish, tahrirlash, o'chirish, foydalanuvchilar ro'yxati va boshqaruvi.
+    Funktsional Talablar:
+        JWT orqali autentifikatsiya va avtorizatsiya.
+        Savollar va javoblar CRUD (Create, Read, Update, Delete) amallari.
+        Natijalarni saqlash va statistik ma'lumotlarni taqdim etish.
+4. Ma'lumotlar Bazasi Dizayni:
+    Foydalanuvchilar jadvali:
+        id, username, email, password_hash, role (user/admin).
+    Testlar (Quizz) jadvali:
+        id, title, description, questions.
+    Savollar jadvali:
+        id, quiz_id, question_text, answers.
+    Javoblar jadvali:
+        id, question_id, answer_text, is_correct.
+    Natijalar jadvali:
+        id, user_id, quiz_id, score, completed_at.
+5. Testlash va Sinov Jarayonlari:
+    Birlik testlari (Unit tests) va funksional testlar yozish.
+    Barcha modullarni va API-larni avtomatlashtirilgan testlash.
+    Foydalanuvchi interfeysini A/B testlash va foydalanuvchi tajribasini (UX) takomillashtirish.
+6. Loyihani Ishga Tushirish:
+    Xosting: 
+        AWS, Heroku yoki boshqa bulutli xizmatlar.
+    Monitoring va Analitika: 
+        Loglarni monitoring qilish va foydalanuvchi analitikasini o'rnatish (Google Analytics, ELK Stack).
+    Xavfsizlik: 
+        SSL sertifikatlar, XSS himoyasi, SQL Injectiondan himoya, Rate limiting.
+7. Loyihani Takomillashtirish:
+    Savollarni import va eksport qilish imkoniyati.
+    Ko‘proq test turlari qo‘shish (masalan, vaqtga cheklangan testlar).
+    Foydalanuvchilar reytingi va yutuqlar tizimini qo'shish.
+    Foydalanuvchi tahlili uchun boshqaruv panelini (Dashboard) takomillashtirish.
+
